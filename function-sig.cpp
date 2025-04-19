@@ -9,3 +9,15 @@ const char* IopTimerDispatch = " 48 8B DA 48 8B F1 48 89 94 24 ? ? ? ? 44 8B 35 
 const char* KiBalanceSetManagerDeferredRoutine = "41 56 48 81 EC ? ? ? ? 48 89 A4 24 ? ? ? ? 4D 8B F1 49 8B F0 48 8B DA 48 8B F9 33 D2 44 8D 42 ? 48 8D 88 ? ? ? ? E8 ? ? ? ? 48 8B C3 48 C1 F8 ? 48 FF C0 48 83 F8 ? 77";
 const char* KiDpcDispatch = "48 31 51 ? 48 31 51 ? 48 83 C1 ? 48 31 51 ? 48 31 51 ? 48 31 51 ? 48 31 51 ? 48 31 51 ? 48 31 51 ? 48 31 51 ? 48 31 51 ? 48 31 51 ? 48 31 51 ? 48 31 51 ? 48 31 51";
 const char* PopThermalZoneDpc = "48 FF C0 48 83 F8 ? 0F 86 ? ? ? ? 83 64 24 ? ? C6 03 ? 49 8B C6 48 C1 E8 ? 48 89 43 ? 48 89 B4 24 ? ? ? ? 8B CE 48 8B C7 48 D3 C0 48 89 84 24 ? ? ? ? 48 8B C3 48 D3 C8 48 89 84 24 ? ? ? ? 4C 31 73 ? 48 31 73";
+
+const uint64_t o_CmpEnableLazyFlushDpcRoutine = 0x306320;
+const uint64_t o_CmpLazyFlushDpcRoutine = 0x337E50;
+const uint64_t o_ExpCenturyDpcRoutine = 0x306740;
+const uint64_t o_ExpTimerDpcRoutine = 0x33A590;
+const uint64_t o_ExpTimeRefreshDpcRoutine = 0x306860;
+const uint64_t o_ExpTimeZoneDpcRoutine = 0x395370;
+const uint64_t o_IopIrpStackProfilerDpcRoutine = 0x3063F0;
+const uint64_t o_IopTimerDispatch = 0x501860;
+const uint64_t o_KiBalanceSetManagerDeferredRoutine = 0x306980;
+const uint64_t o_KiDpcDispatch = 0xA39270;
+const uint64_t o_PopThermalZoneDpc = 0x2010F0;
