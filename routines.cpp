@@ -18,8 +18,6 @@ void __fastcall CmpLazyFlushDpcRoutine(
         PVOID SystemArgument1,
         PVOID SystemArgument2)
 
-void __fastcall ExpTimeZoneDpcRoutine(KDPC *Dpc, PVOID DeferredContext, PVOID SystemArgument1, PVOID SystemArgument2)
-
 void __fastcall ExpTimerDpcRoutine(
     struct _KDPC *Dpc,
     PVOID DeferredContext,
